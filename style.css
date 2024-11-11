@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  label, select, button {
+    margin-top: 10px;
+    display: block;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #news-container {
+    margin-top: 20px;
+  }
+  
+  .news-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .news-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .news-item p {
+    margin: 5px 0;
+  }
+  
+  .news-item a {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias por Ciudad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Noticias de tu Ciudad</h1>
+  
+  <!-- Selección de la ciudad -->
+  <label for="city">Selecciona una ciudad:</label>
+  <select id="city">
+    <option value="">Elige una ciudad</option>
+    <option value="Mexico City">Ciudad de México</option>
+    <option value="New York">Nueva York</option>
+    <option value="London">Londres</option>
+    <option value="Tokyo">Tokio</option>
+    <option value="Paris">París</option>
+  </select>
+
+  <!-- Botón de consulta -->
+  <button id="search">Buscar Noticias</button>
+
+  <!-- Contenedor de resultados -->
+  <div id="news-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
